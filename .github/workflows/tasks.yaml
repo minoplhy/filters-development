@@ -15,7 +15,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         Destination_UNAME: "minoplhy"
-        Destination_REPO: "filters"
+        Destination_REPO: "filters-development"
         Destination_VERSION: "ucate"
         ACTION_FILE: "action.py"
         GIT_NAME: "HurBar"
