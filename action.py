@@ -26,12 +26,12 @@ UCATE_SOURCE = [
 'https://block.energized.pro/basic/formats/filter',
 'https://hblock.molinero.dev/hosts_unbound.conf',
 'https://github.com/minoplhy/filters/releases/download/filters-build/Adguard-Base_rpz.txt',
-'https://github.com/minoplhy/filters/releases/download/filters-build/Adguard-Mobile_rpz.txt',
-'https://github.com/yous/YousList/raw/master/youslist.txt',
-'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt',
-'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2020.txt',
-'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2021.txt',
-'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2022.txt'
+'https://github.com/minoplhy/filters/releases/download/filters-build/Adguard-Mobile_rpz.txt'
+#'https://github.com/yous/YousList/raw/master/youslist.txt',
+#'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt',
+#'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2020.txt',
+#'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2021.txt',
+#'https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-2022.txt'
 ]
 
 crawler.clear_old_files(incoming)
