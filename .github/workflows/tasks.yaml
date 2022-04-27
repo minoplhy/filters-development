@@ -5,10 +5,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: filters-build
-      uses: minoplhy/filters-build_actions@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+    #- name: filters-build
+     # uses: minoplhy/filters-build_actions@main
+     # env:
+     #   API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
     - name: build
       uses: minoplhy/filters-maker@v1.0.4
       env:
